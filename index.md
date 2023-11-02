@@ -60,6 +60,7 @@ Check SWC curriculum
 {% endcomment %}
 
 {% comment %} -------- Commenting out until details are confirmed -------------
+
 {% if site.carpentry == "swc" %}
 {% unless site.curriculum == "swc-inflammation" or site.curriculum == "swc-gapminder" %}
 <div class="alert alert-warning">
@@ -67,6 +68,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 </div>
 {% endunless %}
 {% endif %}
+
 {% endcomment %}
 
 {% comment %}
