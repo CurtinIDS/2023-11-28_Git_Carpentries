@@ -59,7 +59,7 @@ It looks like you are setting up a website for a Data Carpentry curriculum but y
 Check SWC curriculum
 {% endcomment %}
 
-{% comment %} -------- Commenting out until details are confirmed -------------
+{% comment %} -------- Commenting out - not sure what our curricullum is ---------
 
 {% if site.carpentry == "swc" %}
 {% unless site.curriculum == "swc-inflammation" or site.curriculum == "swc-gapminder" %}
@@ -69,7 +69,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endunless %}
 {% endif %}
 
-{% endcomment %}
+ -------- Commenting out - not sure what our curricullum is --------- {% endcomment %}
 
 {% comment %}
 EVENTBRITE
